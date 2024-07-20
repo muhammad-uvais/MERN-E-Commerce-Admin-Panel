@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+
+.navbar-wrapper {
+  width: 100%;
+  height: 60px;
+  background-color: #10163A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c8cde9;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  width: 35%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.navbar-logo p {
+  font-family: 'Calligraffitti', cursive;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.navbar-menu {
+  width: 60%;
+  height: 60px;
+}
+
+.navbar-menu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+  height: 100%;
+}
+
+.navbar-menu ul li {
+  list-style: none;
+  font-size: 18px;
+}
+
+.navbar-menu ul li a {
+  text-decoration: none;
+  color: #c8cde9;
+}
+
+.footer {
+  background-color: #10163A;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #424E79;
+  font-size: 20px;
+}
+
+.footer i {
+  color: red;
+}
+
+.brand {
+  font-weight: 600;
+  color: #4454C3;
+  font-family: 'Calligraffitti', cursive;
+  letter-spacing: 3px;
+}
+
+/* @media (max-width: 600px) {
+  .navbar-wrapper {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navbar-logo {
+    width: 100%;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-menu {
+    width: 100%;
+  }
+
+  .navbar-menu ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar-menu ul li {
+    font-size: 16px;
+  }
+} */
